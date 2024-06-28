@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #FFFFFF; /* White for text */
+  --accent-color: #B3BF90;  /* Light green */
+  --font-family: 'Roboto', sans-serif; /* Roboto font */
+  --background-color: #283424; /* Dark green from the image */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  background-color: var(--background-color);
+  color: var(--primary-color);
+}
