@@ -121,3 +121,35 @@
 .card-content {
   margin-top: 10px;
 }
+
+
+.loginWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.loginBox {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: white;
+}
+
+.passwordInput {
+  margin-bottom: 1rem;
+}
+
+.loginButton {
+  margin-top: 1rem;
+}
+
+
+.greenText {
+  color: var(--background-color);
+}
