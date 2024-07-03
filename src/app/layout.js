@@ -1,7 +1,7 @@
 import './styles/global.css';
 
 export const metadata = {
-  title: 'Winners Aproach',
+  title: 'Winners Approach',
   description: 'Approach Arena Winners',
 }
 

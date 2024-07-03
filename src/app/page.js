@@ -87,6 +87,7 @@ export default function Home() {
         });
       }
     });
+    filtered.sort((a, b) => a.name.localeCompare(b.name));
     setFilteredData(filtered);
   }, [filters, data]);
 
